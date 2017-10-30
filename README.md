@@ -1,1 +1,1 @@
-# Micro Blog with Pyhton Flask
+# Micro Blog with Python Flask
