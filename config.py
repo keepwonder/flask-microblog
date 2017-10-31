@@ -12,3 +12,5 @@ class DevConfig(Config):
     """Development config class."""
     # open the DEBUG
     DEBUG = True
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@127.0.0.1:3306/db_for_microblog'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
